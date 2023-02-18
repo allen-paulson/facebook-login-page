@@ -1,0 +1,366 @@
+*{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #f0f2f5;
+}
+
+.main{
+  width: 980px;
+  margin: auto;
+  height: 650px;
+  display: flex;
+  padding-top: 100px;
+}
+
+.main-left{
+  width: 580px;
+  padding: 20px;
+
+}
+
+.main-right{
+  width: 400px;
+  padding: 45px;
+}
+
+.fb-logo{
+    
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 100px;
+  color: #1877f2;
+}
+.fb-text{
+  
+  font-size: 28px;
+  margin-top: 10px;
+  color: black;
+}
+
+.login{
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.email{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.email input[type=email]{
+  width: 100%;
+  padding: 9px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.password{
+  
+  width: 100%;
+  margin-top: 20px;
+}
+
+.password  input[type=password]{
+  width: 100%;
+  padding: 9px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-button{
+  width: 100%;
+  margin-top: 20px;
+}
+.login-button button{
+  width: 100%;
+  padding: 9px;
+  font-size: 17px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer; 
+}
+
+.forgot-password-link{
+  width:100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forgot-password-link a{
+  font-size: 14px;
+  text-decoration: none;
+  color:#1877f2;
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+  border: 1px solid #ccc;  
+}
+
+.create-account{
+  width: 180px;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.create-account button{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #42b72a;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: white;
+}
+
+.footer-link{
+  width: 980px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-link a{
+  text-decoration: none;
+  padding: 4px;
+  color:#8a8d91;
+
+}
+
+.Meta-2023{
+  width: 980px;
+  margin: auto;
+  padding: 20px;
+}
+
+.Meta-2023 a{
+  text-decoration: none;
+  padding: 2px;
+  color:#8a8d91;
+}
+
+.model{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(250,250,250,0.8);
+  display: none;
+}
+
+.signup{
+  width: 100%;
+  max-width: 35%;
+  margin: auto;
+  height:500px;
+  margin-top: 100px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+  0 8px 16px rgba(0,0,0,0.1) ; 
+}
+
+.signup-close{
+  position: absolute;
+  right:10px;
+  top:10px;
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.signup-heading{
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.signup-heading .signup-text1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.signup-heading .signup-text2{
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.signup-name{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between
+}
+
+.signup-name input[type=text]{
+  width: 48%;
+  padding:8px;
+  font-size: 17px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.signup-email{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.signup-email input[type=email]{
+  width: 100%;
+  padding:8px;
+  font-size: 17px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.signup-password{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;    
+}
+
+.signup-password input[type=password]{
+  width: 100%;
+  padding:8px;
+  font-size: 17px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.signup-dob{
+ width: 100%;
+ margin-top: 10px;
+ display: flex;
+ align-items: center;
+}
+
+.signup-dob-alert{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #aaa;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin-left: 3px;
+}
+
+
+
+.signup-dob-selection{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-choice{
+  width: 32%;
+   border: 1px solid #ccc;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.select-choice select{
+  
+}
+
+.signup-gender{
+ width: 100%;
+ margin-top: 10px;
+ display: flex;
+ align-items: center; 
+}
+
+.signup-gender-alert{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #aaa;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin-left: 3px;
+}
+
+.signup-gender-choice{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-gender-name{
+   width: 32%;
+   border: 1px solid #ccc;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 17px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.signup-terms{
+  width: 100%;
+  margin-top: 15px; 
+  font-size: 12px;
+}
+
+.signup-button{
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.signup-button button{ 
+  width: 100%;
+  padding: 10px;
+  background-color:#32cd32;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}

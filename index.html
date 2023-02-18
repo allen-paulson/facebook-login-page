@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - log in or sign up</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="main">
+
+      <div class="main-left">
+        <p class="fb-logo">facebook</p>
+        <p class="fb-text">Facebook helps you connect and share with the people in your life.</p>
+      </div>
+
+      <div class="main-right">
+          <div class="login">
+
+            <div class="email">
+              <input type="email" id="" placeholder="Email address or phone number">
+            </div>
+            <div class="password">
+              <input type="password" id="" placeholder="password">
+            </div>
+            <div class="login-button">
+              <button>
+                  Log In
+              </button>
+            </div>
+            <div class="forgot-password-link">
+              <a href="">Forgotten password?</a>
+            </div>
+            <div class="line">
+
+            </div>
+            <div class="create-account">
+              <button id="create-account">
+                Create new account
+              </button>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-link">
+        <a href="">Sign Up</a>
+        <a href="">Log In</a>
+        <a href="">Messenger</a>
+        <a href="">Facebook Lite</a>
+        <a href="">Watch</a>
+        <a href="">People</a>
+        <a href="">Pages</a>
+        <a href="">Page categories</a>
+        <a href="">Places</a>
+        <a href="">Games</a>
+        <a href="">Locations</a>
+        <a href="">Marketplace</a>
+        <a href="">FacebookPay</a>
+        <a href="">Groups</a>
+        <a href="">Oculus</a>
+        <a href="">Portal</a>
+        <a href="">Instagram</a>
+        <a href="">Local</a>
+        <a href="">Fundraisers</a>
+        <a href="">Services</a>
+        <a href="">About</a>
+        <a href="">Create ad</a>
+        <a href="">Create Page</a>
+        <a href="">Developers</a>
+        <a href="">Careers</a>
+        <a href="">Privacy</a>
+        <a href="">Cookies</a>
+        <a href="">AdChoice</a>
+        <a href="">Terms</a>
+        <a href="">Help</a>
+      </div>
+    
+      <div class="Meta-2023">
+        <a href="">Meta © 2023</a>
+      </div>
+    </div>
+
+    <div class="model">
+      <div class="signup">
+        <div class="signup-close">x</div>
+        <div class="signup-heading">
+          <p class="signup-text1">Sign Up</p>
+          <p class="signup-text2">It's quick and easy.</p>
+        </div>
+        <div class="signup-name">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Surname">
+        </div>
+        <div class="signup-email">
+          <input type="email" placeholder="Email address or phone number">
+        </div>
+        <div class="signup-password">
+          <input type="password" placeholder="Password">
+        </div>
+        <div class="signup-dob">
+          <label for="">Date of birth</label>
+          <div class="signup-dob-alert">
+            <a>&#63;</a>
+          </div> 
+        </div>
+        <div class="signup-dob-selection">
+          <select id ="day" class="select-choice" name = "dd" >
+          </select>
+          <select  id ="month" class="select-choice" name = "mm" onchange="change_month(this)">
+          </select>
+          <select id ="year" class="select-choice" name = "yyyy" onchange="change_year(this)">
+          </select> 
+          
+
+
+
+        </div>       
+        <div class="signup-gender">
+          <label for="">Gender</label>
+          <div class="signup-gender-alert">
+            <a>&#63;</a>
+          </div>
+        </div>       
+        <div class="signup-gender-choice">
+                 
+          <div class="signup-gender-name">
+            <label for="">Female</label>
+            <input type="radio">
+          </div>
+          
+          <div class="signup-gender-name">
+            <label for="">Male</label>
+            <input type="radio">
+          </div>
+          
+          <div class="signup-gender-name">
+            <label for="">Custom</label>
+            <input type="radio">
+          </div>
+        </div>
+        <div class="signup-terms">
+          <p>
+            People who use our service may have uploaded your contact information to Facebook. Learn more.
+          </p>
+          <p> 
+            By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.  
+          </p>
+        </div>
+      
+        <div class="signup-button">
+          <button>Sign Up</button>
+        </div>        
+
+
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
